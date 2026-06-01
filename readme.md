@@ -92,6 +92,43 @@ You can ask questions such as
 
 If you want any more queries to be included you can add your query to query library by load_queries.py
 
+## Project Structure
+
+Below is the top-level project folder structure:
+
+```
+GamingVoiceBot/
+├── .gitignore
+├── .venv/
+├── ArchitectureDiagram/
+│   ├── Architecture1.png
+│   └── Architecture2.png
+├── app.py
+├── create_tables.py
+├── create_vector_store.py
+├── data_generation/
+│   ├── generate_achievements.py
+│   ├── generate_games.py
+│   ├── generate_players.py
+│   ├── generate_sessions.py
+│   └── generate_transactions.py
+├── database/
+│   └── gaming.db
+├── load_queries.py
+├── readme.md
+├── requirements.txt
+├── services/
+│   ├── embeddings.py
+│   ├── retrieval.py
+│   ├── reranker.py
+│   ├── speech_to_text.py
+│   └── sql_executor.py
+├── temp/
+└── vector_db/
+    ├── chroma.sqlite3
+    └── 950790c1-3d5c-4afe-a860-23b4e5dc78f3/
+```
+
 ## Important Files and Scripts
 
 - [app.py](app.py): Streamlit frontend. Records audio, transcribes with Whisper, retrieves best-matching repository query, executes SQL, and displays results.
