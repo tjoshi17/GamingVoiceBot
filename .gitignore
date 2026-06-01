@@ -1,0 +1,68 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary files
+temp/
+
+# Vector DB and local DB files
+vector_db/
+chroma.sqlite3
+database/*.db
+
+# Secrets
+.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Caches and test outputs
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and environment files
+*.log
+.env
+
+# Project-specific
+database/gaming.db
+vector_db/
+temp/
+temp/*
+*.sqlite3
+chroma.sqlite3
+*.wav

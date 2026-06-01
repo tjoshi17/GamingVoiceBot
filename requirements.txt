@@ -1,0 +1,11 @@
+faker
+pandas
+sqlalchemy
+chromadb
+streamlit
+streamlit-mic-recorder
+openai-whisper
+ollama
+chromadb
+pandas
+soundfile
